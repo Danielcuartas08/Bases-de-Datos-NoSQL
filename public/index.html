@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD MongoDB</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CRUD de Clientes (MongoDB)</h1>
+  
+  <!-- Formulario para crear o editar -->
+  <form id="formCliente">
+    <input type="hidden" id="id">
+    <input id="documento" placeholder="Documento" required>
+    <input id="nombre" placeholder="Nombre" required>
+    <input id="apellido" placeholder="Apellido" required>
+    <button type="submit">Guardar</button>
+    <button type="button" id="cancelar">Cancelar</button>
+  </form>
+  
+  <ul id="lista"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
